@@ -4,6 +4,7 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
   z-index: 0;
 }
 
@@ -180,5 +181,8 @@ p {
   .iphone6-img { 
     display: inline;
   }
-
+  
+  body {
+    font-size: 1rem;
+  }
 }
