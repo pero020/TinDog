@@ -4,29 +4,34 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-  font-size: 2rem;
+  font-size: 1.5em;
   z-index: 0;
 }
 
 h1 {
   line-height: 1.5;
-  font-size: 4rem;
+  font-size: 4em;
   font-weight: bold;
 }
 
 h2 {
   color:white;
   font-weight: bold;
-  font-size: 3.5rem
+  font-size: 3.5em
 }
 
 h3 {
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 2em;
 }
 
 p {
-  color: grey
+  color: grey;
+  font-size: 1em;
+}
+
+em {
+  font-size: 1.5em;
 }
 
 /* Containers */
@@ -35,9 +40,14 @@ p {
   overflow: hidden;
 }
 
-.title-container {
+/* .title-container {
   padding: 2% 15% 8% 15%;
+} */
+
+.title-container {
+  padding: 2% 5% 8% 5%;
 }
+
 
 .feature-col {
   padding: 25px 5%;
@@ -129,7 +139,7 @@ p {
 
 .iphone6-img { 
   transform: rotate(25deg);
-  width: min(75%, 365px);
+  width: min(75%, 24em);
   position: absolute;
   right: 10%;
   z-index: 1;
@@ -137,14 +147,14 @@ p {
 }
 
 .testimonial-img {
-  width: 15%;
+  width: 20%;
   border-radius: 50%;
   margin: 25px;
 }
 
 .press-img {
-  width: 15%;
-  margin: 25px 25px 50px 25px;
+  width: min(15%, 256px);
+  margin: 25px 2% 50px 2%;
 }
 
 /* Buttons */
@@ -162,7 +172,7 @@ p {
 /* Icons */
 
 .feature-icon {
-  font-size: 128px;
+  font-size: 7em;
   margin-bottom: 25px;
   color: #f85f73;
 }
@@ -172,17 +182,32 @@ p {
 }
 
 
-@media only screen and (min-width: 992px){
+@media only screen and (min-width: 992px) {
+  .iphone6-img { 
+    display: inline;
+  }
+}
+
+@media only screen and (orientation: landscape){
+
+  body {
+    font-size: 1em;
+  }
 
   #title {
     text-align: left;
   }
 
-  .iphone6-img { 
-    display: inline;
+  .title-container {
+    padding: 2% 15% 8% 15%;
   }
-  
+}
+
+
+@media only screen and (min-width: 2400px) {
+
   body {
-    font-size: 1rem;
+    font-size: 1.5em;
   }
+
 }
