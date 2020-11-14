@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+/* Elements */
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  z-index: 0;
+}
+
+h1 {
+  line-height: 1.5;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+h2 {
+  color:white;
+  font-weight: bold;
+  font-size: 3.5rem
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+p {
+  color: grey
+}
+
+/* Containers */
+
+.container-fluid {
+  overflow: hidden;
+}
+
+.title-container {
+  padding: 2% 15% 8% 15%;
+}
+
+.feature-col {
+  padding: 25px 5%;
+  text-align: center;
+}
+
+/* Sections */
+
+#title {
+  background-color: #f85f73;
+  color: white;
+  text-align: center
+}
+
+#features {
+  background-color: white;
+  padding: 8% 15%;
+  position: relative;
+  z-index: 2;
+}
+
+#testimonials {
+  background-color: #f85f73;
+  text-align: center;
+}
+
+#press {
+  background-color: #f85f73;
+  padding-bottom: 4%;
+  text-align: center;
+}
+
+#pricing {
+  text-align: center;
+  padding: 8% 15%;
+}
+
+/* Navbar */
+
+.navbar {
+  background-color: #f85f73;
+  width: 100%;
+  padding: 0px;
+  padding-bottom: 75px;
+}
+
+.navbar-brand {
+  font-size: 4rem;
+}
+
+.nav-item {
+  margin: 0px 10px;
+  font-size: 1.5rem;
+}
+
+/* Carousel */
+
+.carousel-item {
+  padding: 8% 15%;
+}
+
+/* Pricing */
+
+.pricing-header {
+  margin-bottom: 8%;
+}
+
+.pricing-header-text {
+  color: black;
+}
+
+.pricing-cards {
+  margin: 0px;
+}
+
+.pricing-col {
+  padding: 10px;
+}
+
+.price-text {
+  color:black;
+}
+
+.price-text-free {
+  color:#f85f73;
+}
+
+/* Images */
+
+.iphone6-img { 
+  transform: rotate(25deg);
+  width: min(75%, 365px);
+  position: absolute;
+  right: 10%;
+  z-index: 1;
+  display: none;
+}
+
+.testimonial-img {
+  width: 15%;
+  border-radius: 50%;
+  margin: 25px;
+}
+
+.press-img {
+  width: 15%;
+  margin: 25px 25px 50px 25px;
+}
+
+/* Buttons */
+
+.btn-download {
+  margin: 50px 10px 25px 0;
+}
+
+.btn-free {
+  background-color: #f85f73;
+  color: white;
+  border-color: white
+}
+
+/* Icons */
+
+.feature-icon {
+  font-size: 128px;
+  margin-bottom: 25px;
+  color: #f85f73;
+}
+
+.feature-icon:hover {
+  color: red;
+}
+
+
+@media only screen and (min-width: 992px){
+
+  #title {
+    text-align: left;
+  }
+
+  .iphone6-img { 
+    display: inline;
+  }
+
+}
