@@ -17,7 +17,7 @@ h1 {
 h2 {
   color:white;
   font-weight: bold;
-  font-size: 3.5em
+  font-size: 3em
 }
 
 h3 {
@@ -85,6 +85,17 @@ em {
   padding: 8% 15%;
 }
 
+#cta {
+  padding: 4% 15%;
+  text-align: center;
+  background-color: #f85f73;
+}
+
+#footer {
+  text-align: center;
+  background-color: #f85f73;
+}
+
 /* Navbar */
 
 .navbar {
@@ -95,7 +106,7 @@ em {
 }
 
 .navbar-brand {
-  font-size: 4rem;
+  font-size: 4em;
 }
 
 .nav-item {
@@ -135,6 +146,17 @@ em {
   color:#f85f73;
 }
 
+.end-text {
+  color: white;
+  font-style: italic;
+}
+
+.copyright {
+  color: white;
+  padding: 0 0 5px 0;
+  margin: 0;
+}
+
 /* Images */
 
 .iphone6-img { 
@@ -160,7 +182,8 @@ em {
 /* Buttons */
 
 .btn-download {
-  margin: 50px 10px 25px 0;
+  margin: 50px 10px 10px 0;
+  font-size: 1.5em;
 }
 
 .btn-free {
@@ -201,6 +224,7 @@ em {
   .title-container {
     padding: 2% 15% 8% 15%;
   }
+
 }
 
 
