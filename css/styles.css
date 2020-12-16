@@ -5,33 +5,46 @@
 body {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.5em;
+  text-align: center;
   z-index: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
 }
 
 h1 {
   line-height: 1.5;
   font-size: 4em;
-  font-weight: bold;
 }
 
 h2 {
-  color:white;
-  font-weight: bold;
-  font-size: 3em
+  color: white;
+  font-size: 3em;
 }
 
 h3 {
-  font-weight: bold;
-  font-size: 2em;
+  font-size: 2em;   
 }
 
 p {
   color: grey;
-  font-size: 1em;
+  font-size: 1.5em;
 }
 
 em {
   font-size: 1.5em;
+}
+
+/* Headings */
+
+.big-heading {
+  line-height: 1.5;
+  font-size: 4em;
+  font-weight: bold;
+  max-width: 100%;
 }
 
 /* Containers */
@@ -51,7 +64,6 @@ em {
 
 .feature-col {
   padding: 25px 5%;
-  text-align: center;
 }
 
 /* Sections */
@@ -59,7 +71,6 @@ em {
 #title {
   background-color: #f85f73;
   color: white;
-  text-align: center
 }
 
 #features {
@@ -71,28 +82,23 @@ em {
 
 #testimonials {
   background-color: #f85f73;
-  text-align: center;
 }
 
 #press {
   background-color: #f85f73;
   padding-bottom: 4%;
-  text-align: center;
 }
 
 #pricing {
-  text-align: center;
   padding: 8% 15%;
 }
 
 #cta {
   padding: 4% 15%;
-  text-align: center;
   background-color: #f85f73;
 }
 
 #footer {
-  text-align: center;
   background-color: #f85f73;
 }
 
@@ -130,7 +136,7 @@ em {
   margin-bottom: 8%;
 }
 
-.pricing-header-text {
+.section-header-text {
   color: black;
 }
 
@@ -143,11 +149,11 @@ em {
 }
 
 .price-text {
-  color:black;
+  color: black;
 }
 
 .price-text-free {
-  color:#f85f73;
+  color: #f85f73;
 }
 
 .end-text {
@@ -163,10 +169,11 @@ em {
 
 /* Images */
 
-.iphone6-img { 
+.iphone6-img {
   transform: rotate(25deg);
   width: min(75%, 24em);
   position: absolute;
+  top: 10%;
   right: 10%;
   z-index: 1;
   display: none;
@@ -196,6 +203,10 @@ em {
   border-color: white
 }
 
+.btn-large {
+  font-size: 1.5em;
+}
+
 /* Icons */
 
 .feature-icon {
@@ -210,12 +221,12 @@ em {
 
 
 @media only screen and (min-width: 992px) {
-  .iphone6-img { 
+  .iphone6-img {
     display: inline;
   }
 }
 
-@media only screen and (orientation: landscape){
+@media only screen and (orientation: landscape) {
 
   body {
     font-size: 1em;
