@@ -4,7 +4,8 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.5em;
+  /* font-size: 1.5em; */
+  font-size: 0.8em;
   text-align: center;
   z-index: 0;
 }
@@ -193,7 +194,7 @@ em {
 /* Buttons */
 
 .btn-download {
-  margin: 50px 10px 10px 0;
+  margin: 25px 10px 10  px 0;
   font-size: 1.5em;
 }
 
@@ -238,6 +239,10 @@ em {
 
   .title-container {
     padding: 2% 15% 8% 15%;
+  }
+
+  .btn-download {
+    margin: 50px 10px 10px 0;
   }
 
 }
